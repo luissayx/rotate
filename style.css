@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+img {
+    width: 25%;
+    
+}
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100ph;
+  margin-top: 80px;          
+}
+
+.container img {
+  transform: rotate(45deg); 
+}
+#planet1{
+ 
+  bottom: 0;
+  left: 50%;
+  transform: translateX(150%); 
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+   margin-top: 270px ;
+}
